@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% load shortener_helpers %}
+
+{% block content %}
+The following URL:<br/>
+<pre>{{ link.url }}</pre>
+was shortened to:<br/><br/>
+<input id="link" type="text" size="30" value="{% short_url link %}"/><br/><br/>
+<a href="{% short_url2 link %}">{% short_url2 link %} </a><br/>
+{% endblock content %}

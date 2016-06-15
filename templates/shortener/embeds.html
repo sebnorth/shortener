@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<ul>
+{% for item in resultlist %}
+    <li>{{ item.email }}</li>
+{% endfor %}
+</ul>
+
+{% endblock %}

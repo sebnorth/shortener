@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <title>{% block title %}django-url-shortener{% endblock %}</title>
+    {% block extra_head %}{% endblock %}
+  </head>
+
+  <body>
+      <h1><a href="{% url 'index' %}">{{ request.META.HTTP_HOST }}</a></h1>
+      <hr/>
+      {% block content %}{% endblock %}
+
+      {% block url_form %}
+        {% include 'shortener/form.inc.html' %}
+      {% endblock %}
+
+    {% block extra_body %}{% endblock %}
+  </body>
+</html>
