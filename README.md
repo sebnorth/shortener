@@ -19,7 +19,7 @@ git clone https://github.com/sebnorth/shortener.git
 
 cd shortener
 
-### w katalogu z plikiem manage.py nalezy wykonać: 
+### w katalogu z plikiem manage.py należy wykonać: 
 
 python manage.py syncdb
 
