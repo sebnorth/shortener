@@ -1,6 +1,6 @@
 # shortener
 ## aplikacja skracająca adresy URL - ćwiczenie
-
+### w oparciu o https://github.com/tehranian/django-url-shortener/tree/master/shortener
 
 
 mkdir roboczy
