@@ -4,6 +4,7 @@
 
 https://github.com/tehranian/django-url-shortener/tree/master/shortener
 
+### zaczynamy:
 
 mkdir roboczy
 
